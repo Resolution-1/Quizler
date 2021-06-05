@@ -102,7 +102,7 @@ class _QuizPageState extends State<QuizPage> {
               onPressed: () {
                 bool correctAnswers =
                     quizBrain.questionBank[questionNumber].questionAnswer;
-                // if (correctAnswers == true) {}
+                if (correctAnswers == true) {}
                 setState(
                   () {
                     scoreKeeper.add(
